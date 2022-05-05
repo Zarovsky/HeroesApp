@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
   .container {
     margin:10px;
-  }
-
-  `
-  ]
+  }`]
 })
 export class HomeComponent implements OnInit {
 
