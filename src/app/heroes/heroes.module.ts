@@ -9,8 +9,8 @@ import { ListadoComponent } from './pages/listado/listado.component';
 import { RouterModule } from '@angular/router';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { MaterialModule } from '../material/material.module';
-
-
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
+import { ImagenPipe } from './pipes/imagen.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,9 @@ import { MaterialModule } from '../material/material.module';
     BuscarComponent,
     HeroeComponent,
     HomeComponent,
-    ListadoComponent
+    ListadoComponent,
+    HeroeTarjetaComponent,
+    ImagenPipe
   ],
   imports: [
     CommonModule,
@@ -26,6 +28,7 @@ import { MaterialModule } from '../material/material.module';
     FlexLayoutModule,
     HeroesRoutingModule,
     MaterialModule
+
   ]
 })
 export class HeroesModule { }
